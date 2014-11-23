@@ -1,0 +1,183 @@
+/*
+Title: Cipriano Mazzieri - Resume
+Author: Cipriano Mazzieri
+*/
+
+html, body { height: 100%; }
+body {
+	font-family: cursive, serif;
+	font-size: 10px;
+	background-color: #c4bdbd;
+	margin:0;
+}
+
+/* STRUCTURE
+----------------------------------------------*/
+
+header, .wrapper, footer {
+	font-size: 1.4em;
+	width:100%;
+	max-width: 768px;
+	min-width: 640px;
+	padding:5px;
+	margin: 0 auto;
+}
+
+	/* HEADER
+	|||||||||||||||||||||||||||||||||||||||||||*/
+
+header {
+	color: white;
+	background: rgba(183,195,208, 0.5);
+   border-radius: 5px;
+   margin-top: 5px;
+}
+
+header section {
+	width:30%;
+	height: 100%;
+	float: left;
+	margin:0 1%;
+}
+
+.p-name {
+	text-align: center;
+}
+
+.p-name .name {
+	font-family: 'Pacifico', cursive;
+	font-size: 2em;	
+}
+
+.p-name .position {
+	color:white;
+	font-size: 1.5em;
+	font-weight: bolder;
+}
+
+.p-photo {
+	text-align: center;
+}
+
+.p-photo img {
+	border-radius: 50%;
+	margin-top: 10%;
+}
+
+.p-contact {
+	text-align: left;
+}
+
+.p-contact .label {
+	color: white;
+	font-weight: bolder;
+	font-style: italic;
+}
+
+	/* WRAPPER
+	|||||||||||||||||||||||||||||||||||||||||||*/
+
+.wrapper {
+	
+}
+
+.filling-l {
+	width: 6%;	
+	height: 100%;
+	min-height:500px;
+	/*background: rgb(0,0,255); choose the right colors
+	background: rgba(0,0,255,0.5);*/
+	background: linear-gradient(to left, #f37709, #eee);
+	/*background: linear-gradient(to left, #05EDFF, white);*/
+	border-radius: 0 6em 6em 0;
+	float: left;
+}
+
+.filling-r {
+	width: 6%;
+	height: 100%;
+	min-height:500px;
+	/*background: rgb(0,255,0);
+	background: rgba(0,255,0,0.5); /*choose the right colors*/
+	/*background: linear-gradient(to right, #f37709, white);*/
+	background: linear-gradient(to right, #2b7a27, #eee);
+	border-radius: 6em 0 0 6em;
+	float: right;
+}
+
+	/* MAIN
+	|||||||||||||||||||||||||||||||||||||||||||*/
+
+main {
+	width: 84%;
+	background: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(white, #eee);
+	background-color: white;
+	padding:0 1% 0 1%;
+	border-radius: 1.5em;
+	margin:0 1% 0 1%;
+	float: left;
+}
+
+main section {
+	margin-top: 4em;
+	overflow: hidden;
+}
+
+main section .title {
+	width: 35%;
+	padding-right: 1em;
+	margin: 0.3em 0 1.7em 0;
+	float: left;
+}
+
+main section .content {
+	width: 59%;
+	font-family: sans-serif;
+	padding: 0 0.5em 0.5em 0.5em;
+	border-left: 1px solid;
+	float: left;
+}
+footer {
+	margin: 0 auto;
+	float: left;
+}
+
+/* MISCELANEOUS
+----------------------------------------------*/
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.stroke-orange {
+	text-shadow:
+	    -1px -1px 0 #f37709,
+	    1px -1px 0 #f37709,
+	    -1px 1px 0 #f37709,
+	    1px 1px 0 #f37709;
+}
+
+.stroke-green {
+	text-shadow:
+	    -1px -1px 0 #2b7a27,
+	    1px -1px 0 #2b7a27,
+	    -1px 1px 0 #2b7a27,
+	    1px 1px 0 #2b7a27;
+}
+
+.helper {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.vert-align-m {
+	vertical-align: middle;
+}
